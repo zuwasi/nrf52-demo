@@ -20,6 +20,10 @@ compile_commands.json
 .vscode/
 .idea/
 
+# Diagram editor files
+*.drawio
+*.drawio.bkp
+
 # Python cache
 __pycache__/
 *.pyc
