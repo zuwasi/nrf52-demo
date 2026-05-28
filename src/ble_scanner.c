@@ -70,7 +70,7 @@ static uint16_t estimate_distance_cm(int8_t tx_power_dbm, int8_t rssi_dbm)
     }
     else if (loss_db <= 6)
     {
-        distance_cm = 200U;
+        distance_cm = 201U;//test changed 200 to 201 
     }
     else if (loss_db <= 10)
     {
