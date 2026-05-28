@@ -3,6 +3,7 @@
 CMake project for a MISRA-oriented nRF52 BLE advertisement range detector.
 
 License: MIT. Architecture flowgraph: `docs/nrf52-demo-flow.drawio`.
+Jira manual-test samples: `docs/jira/manual-tests.csv`.
 
 The portable C core processes BLE advertising reports, extracts Tx Power and
 local name fields, estimates proximity from RSSI, and reports devices that are
