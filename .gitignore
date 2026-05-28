@@ -1,0 +1,25 @@
+# CMake build outputs
+build*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Generated binaries and archives
+*.a
+*.elf
+*.exe
+*.hex
+*.map
+*.o
+*.obj
+
+# IDE metadata generated outside the source tree
+.vs/
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
